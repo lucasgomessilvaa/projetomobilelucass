@@ -1,11 +1,37 @@
-# Sample Snack app
+# 🧸 ToyStore
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+## Sobre o Projeto
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+O ToyStore é um aplicativo simples de loja de brinquedos desenvolvido em React Native no Expo Snack.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+O sistema possui 5 telas que simulam o funcionamento básico de uma loja virtual.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+---
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## Telas
+
+### 🏠 Home
+Tela inicial do aplicativo.
+
+### 🎮 Produtos
+Exibe os brinquedos disponíveis.
+
+### 🚗 Detalhes
+Mostra as informações do produto selecionado.
+
+### 🛒 Carrinho
+Exibe os produtos adicionados ao carrinho.
+
+### 👤 Perfil
+Mostra as informações do usuário.
+
+---
+
+## Como Funciona
+
+O aplicativo utiliza o `useState` para trocar entre as telas.
+
+Exemplo:
+
+```javascript
+setTela('produtos');
